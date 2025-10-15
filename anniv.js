@@ -75,11 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="text-gray-600">
                         sorry gemini helped btw i cannot js that well
                     </p>
-                    <div class = "smallMessage">hi loveyy hehe happy 2 years of cr run aw yeah my life's success will be that cr run i cant lie 😅 this is smth rlly small and simple bc u said let's keep it simple munaa! so i got help from chatgpt with the js functionality but the design and other stuff are from me (￣︶￣) and i didn't include a lot of stuff bc i'd rather say them for a different thing. 
+                    <div class = "smallMessage">hi loveyy hehe happy 2 years of cr run aw yeah my life's success will be that cr run i cant lie 😅 this is smth rlly small and simple bc u said let's keep it simple munaa! so i got help from chatgpt with the js functionality but the design and other stuff are from me (￣︶￣) and i didn't include a lot of stuff bc i'd rather say them for a different thing! 
                     
-                    <br> <br>but just so you know, i definitely get that the past year wasn't the best for either of us in many ways, and i know that we also hurt each other and aren't the best for each other always. in spite of everything, of all events, circumstances, and mga [redacted] in this world, for what it's worth, i will still try and be someone for you, no matter how hard it'll be or how against everything it seems. <br><br>
+                    <br> <br>but just so you know, this was a panglingaw lingaw lang na thing hehe js to cheer u up in a way tew on our anniv likee just some cute pictures of both of us tgt from the past few months and goofy descriptions of them >< <br><br>
                     
-                    against all odds, we even made it to 2 years and that's not an easy feat! i ended shs with you, and now i'm halfway the halfway point of college with you, uncertainties and all (*>﹏<*)′. whether it's gonna be a future with a bounce house, 15 cats or a tiger and ducks, in an apartment, in a condo, in manila, in davao, in singapore... or maybe in space... whether it's gonna get easier or harder from now, i still wish for just one constant.
+                    AND against all odds, we made it to 2 years and that's not an easy feat! i ended shs with you, and now i'm halfway the halfway point of college with you, uncertainties and all (*>﹏<*)′. whether it's gonna be a future with a bounce house, 15 cats or a tiger and ducks, in an apartment, in a condo, in manila, in davao, in singapore... or maybe in space... whether it's gonna get easier or harder from now, i still wish for just one constant and that is u!
 
                     <br><br> happy anniversary u big baby ¯\\_(ツ)_/¯ i love you always
 
@@ -173,4 +173,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Initialize state
             updateCard();
+
         });
