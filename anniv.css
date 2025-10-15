@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 100px;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+
+    max-width: 90%;
+}
+.grid-item{
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    text-align: center;
+}
+.span-full {
+    grid-column: 1 / 3;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: #ecfeff;
+    border: 2px solid #22d3ee;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+    font-size: 1.1rem;
+  }
+.span{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ecfeff;
+    border: 2px solid #22d3ee;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+#toggle{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(196, 240, 255);
+    border: 1px solid rgb(80, 200, 239);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Inter;
+    transition: background-color 0.2s;
+}
+#toggle:hover{
+    
+    background-color: rgb(223, 246, 255);
+    border: 1px solid rgb(160, 223, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    transform: translateY(-1px);
+}
+.memory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .memory-card {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .memory-card:hover {
+            transform: scale(1.03);
+        }
+
+        .memory-image {
+            width: 100%;
+            height: 200px; 
+            object-fit: cover;
+            border-bottom: 2px solid #ccc;
+        }
+        
+        .description-toggle {
+            padding: 8px 12px;
+            background-color: #a4e4ff;
+            color: white;
+            font-weight: 600;
+            border-radius: 6px;
+            margin-top: 8px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .description-toggle:hover {
+            background-color: #0ea5e9;
+        }
+
+        .description-text {
+            display: none; /* Initially hidden */
+            padding: 10px;
+            background-color: #f0f9ff;
+            border-top: 1px solid #e0f2fe;
+            font-size: 0.9rem;
+            text-align: left;
+        }
+        .description-text.active {
+            display: block; /* Show when active */
+        }
+        
+        /* Responsive adjustment for small screens */
+        @media (max-width: 450px) {
+            .body {
+                grid-template-columns: 1fr; /* Stack all items in one column */
+                width: 100%;
+            }
+            .span-full {
+                grid-column: 1 / 2; /* Reset span to 1 column */
+            }
+        }
+
+        #backToAnniversary{
+            height: 50px;
+            width: 120px;
+            background-color: rgb(196, 240, 255);
+            border: 1px solid rgb(80, 200, 239);
+            transition: background-color 0.2s;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: Inter;
+        }
+        #backToAnniversary:hover{
+    
+    background-color: rgb(223, 246, 255);
+    border: 1px solid rgb(160, 223, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    transform: translateY(-1px);
+}
+.smallMessage{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    font-weight: 500;
+    font-size: 12px;
+}
